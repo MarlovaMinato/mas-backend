@@ -1,6 +1,7 @@
 import {Request, Response} from 'express';
 import { CreateUserService } from '../services/CreateUserServices';
 import {CreateActivyService} from '../services/CreateActivyServices';
+import {CreateCourseUnitService} from '../services/CreateCourseUnitServices';
 
 class UserController {
     async create(request:Request, response:Response) {
