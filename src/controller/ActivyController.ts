@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import {CreateActivyService} from '../services/CreateActivyService'
+import { GetActiviesService } from "../services/GetActiviesService";
 
 class ActivyController {
     async create(request: Request, response:Response){
